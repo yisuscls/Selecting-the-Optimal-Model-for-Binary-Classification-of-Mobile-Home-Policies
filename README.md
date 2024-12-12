@@ -60,5 +60,5 @@ pip install pandas joblib scikit-learn
 
 ```bash
 # Navigate to your project directory
-pip install torch torchvision torchaudio
+pip install torch torchvision torchaudio pytorch-tabnet
 ```
