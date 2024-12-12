@@ -1,0 +1,18 @@
+##############################################################################################
+fnn_13_52  
+##############################################################################################
+fnn_model=FNN(85,2)
+SMOTE 
+FNN(
+  (network): Sequential(
+    (0): Linear(in_features=85, out_features=85, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=85, out_features=85, bias=True)
+    (3): Dropout(p=0.2, inplace=False)
+    (4): BatchNorm1d(85, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Linear(in_features=85, out_features=1, bias=True)
+    (7): Sigmoid()
+  )
+)
+##############################################################################################
